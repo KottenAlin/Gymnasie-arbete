@@ -49,4 +49,51 @@
 
 <script setup>
 
+import { collection, addDoc, getDoc } from 'firebase/firestore'
+
+const { $db } = useNuxtApp()
+
+// check if firestore if connected
+console.log($db)
+// Initialize Firestore connection
+
+// Replace the existing $db reference with our local connection
+
+
+// Ensure Firestore is connected before proceeding
+onMounted(() => {
+    if (!$db) {
+        console.error('Firestore connection failed');
+    } else {
+        console.log('Firestore connected successfully');
+    }
+});
+
+// Add a new document to the collection 'items'
+const addDocument = async () => {
+  try {
+    const docRef = await addDoc(collection($db, 'items'), {
+      name: 'New Item',
+      createdAt: new Date()
+    })
+    console.log('Document added with ID:', docRef.id)
+  } catch (error) {
+    console.error('Error adding document:', error)
+  }
+}
+
+// Get a document from the collection 'items'
+const getDocument = async () => {
+  try {
+    const docRef = await getDoc(collection($db, 'items'))
+    console.log('Document data:', docRef.data())
+  } catch (error) {
+    console.error('Error getting document:', error)
+  }
+}
+
+addDocument()
+getDocument()
+
+
 </script>
