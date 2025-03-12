@@ -6,3 +6,38 @@ body {
     font-family: 'Nunito', sans-serif;
     background-color: #f7fafc;
 }
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 bg-blue-500 text-white rounded;
+    }
+    .btn:hover {
+        @apply bg-blue-600;
+    }
+    .card {
+        @apply bg-white shadow-md rounded-lg overflow-hidden;
+    }
+}
+
+/* Dark mode implementation 
+@media (prefers-color-scheme: dark) {
+    body {
+        @apply bg-gray-900 text-gray-100;
+    }
+    
+    .card {
+        @apply bg-gray-800 shadow-lg;
+    }
+    
+    /* Add any other dark mode styles here 
+} 
+
+*/
+/* Optional class-based toggle for manual control */
+.dark {
+    @apply bg-gray-900 text-gray-100;
+}
+
+.dark .card {
+    @apply bg-gray-800;
+}

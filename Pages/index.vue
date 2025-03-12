@@ -47,20 +47,6 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: 'IndexPage',
-    head() {
-        return {
-            title: 'Weather Drone Project',
-            meta: [
-                {
-                    hid: 'description',
-                    name: 'description',
-                    content: 'Advanced weather monitoring using drone technology'
-                }
-            ]
-        }
-    }
-}
+<script setup>
+
 </script>
