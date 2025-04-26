@@ -9,8 +9,9 @@ The goal is to build and program a drone platform that collects weather and tele
 - Cloud data storage (Firebase)
 - Interactive dashboard for data visualization
 
-[Website](https://weatherdrones.netlify.app/dashboard)
 
+[Website](https://weather-drones.netlify.app/dashboard)
+(website version is not newly update, some functions are not complete)
 
 
 ## Setup

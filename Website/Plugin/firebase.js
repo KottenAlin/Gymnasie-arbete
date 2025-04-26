@@ -1,5 +1,4 @@
-// plugins/firebase.js
-/*import { initializeApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
 import {
   getFirestore,
   collection,
@@ -67,6 +66,26 @@ export default defineNuxtPlugin(() => {
     }
   };
 
+  // Write drone data to a JSON file (server-side only)
+  const writeDataToJsonFile = async (data, filePath = './drone_readings.json') => {
+    if (process.server) {
+      const fs = await import('fs/promises');
+      let existing = [];
+      try {
+        const content = await fs.readFile(filePath, 'utf-8');
+        existing = JSON.parse(content);
+      } catch (e) {
+        // If file doesn't exist or is invalid, start fresh
+        existing = [];
+      }
+      existing.push(data);
+      await fs.writeFile(filePath, JSON.stringify(existing, null, 2), 'utf-8');
+    } else {
+      // No-op on client
+      console.warn('writeDataToJsonFile is only available server-side.');
+    }
+  };
+
   // Export the database and functions for components to use
   return {
     provide: {
@@ -74,7 +93,8 @@ export default defineNuxtPlugin(() => {
       db,
       auth,
       addDroneData,
+      writeDataToJsonFile,
     },
   };
-}); */
-let a = 1;
+});
+

@@ -1,6 +1,6 @@
 # Gymnasieprojekt väderdrönare
 
-[Website](https://weatherdrones.netlify.app/dashboard)
+[Website](https://weather-drones.netlify.app/dashboard)
 
 
 

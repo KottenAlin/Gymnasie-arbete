@@ -1,58 +1,75 @@
 <template>
     <div class="weather-drone-app">
 
-        <section class="bg-gradient-to-r from-blue-900 to-blue-500 text-white py-20 text-center">
+        <section
+            class="bg-gradient-to-r from-blue-900 to-blue-500 text-white py-20 text-center dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-700 dark:text-white">
             <div class="max-w-7xl mx-auto px-5">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">Weather Drone Project</h1>
-                <p class="text-xl mb-8">Advanced weather monitoring using drone technology</p>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Weather Drones</h1>
+                <p class="text-xl mb-8">Cost effective weather monitoring using drone technology</p>
                 <NuxtLink to="/dashboard"
-                    class="bg-white text-blue-900 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition">View
+                    class="bg-white text-blue-900 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition ">View
                     Live Data</NuxtLink>
             </div>
         </section>
 
         <section class="py-16">
             <div class="max-w-7xl mx-auto px-5">
-                <h2 class="text-3xl font-bold text-center mb-12">Real-time Weather Insights</h2>
+                <h2 class="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Real-time Weather
+                    Insights</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="bg-white p-6 rounded-lg shadow flex flex-col items-center">
-                        <span class="text-gray-500 text-xs mb-1">Temperature</span>
-                        <span class="text-4xl font-bold text-blue-600">{{ temperatureData[0] }}°C</span>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow flex flex-col items-center">
+                        <span class="text-gray-500 dark:text-gray-400 text-xs mb-1">Temperature</span>
+                        <span class="text-4xl font-bold text-blue-600 dark:text-blue-400">{{ temperatureData[0]
+                        }}°C</span>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow flex flex-col items-center">
-                        <span class="text-gray-500 text-xs mb-1">Humidity</span>
-                        <span class="text-4xl font-bold text-green-500">{{ humidityData[0] }}%</span>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow flex flex-col items-center">
+                        <span class="text-gray-500 dark:text-gray-400 text-xs mb-1">Humidity</span>
+                        <span class="text-4xl font-bold text-green-500 dark:text-green-400">{{ humidityData[0]
+                        }}%</span>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow flex flex-col items-center">
-                        <span class="text-gray-500 text-xs mb-1">Wind Speed</span>
-                        <span class="text-4xl font-bold text-purple-500">{{ windSpeedData[0] }} m/s</span>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow flex flex-col items-center">
+                        <span class="text-gray-500 dark:text-gray-400 text-xs mb-1">Wind Speed</span>
+                        <span class="text-4xl font-bold text-purple-500 dark:text-purple-400">{{ windSpeedData[0] }}
+                            m/s</span>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow flex flex-col items-center">
-                        <span class="text-gray-500 text-xs mb-1">Cloudiness</span>
-                        <span class="text-4xl font-bold text-gray-400">{{ Math.round(100 * (humidityData[0] / 100)) }}%</span>
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow flex flex-col items-center">
+                        <span class="text-gray-500 dark:text-gray-400 text-xs mb-1">Cloudiness</span>
+                        <span class="text-4xl font-bold text-gray-400 dark:text-gray-300">{{ Math.round(100 *
+                            (humidityData[0] / 100))
+                        }}%</span>
                     </div>
                 </div>
                 <!-- Drone Status Section -->
                 <div class="mt-10">
-                    <h2 class="text-2xl font-bold text-center mb-6">Drone Status</h2>
+                    <h2 class="text-2xl font-bold text-center mb-6 text-gray-900 dark:text-white">Drone Status</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <div v-for="drone in droneFleetInfo" :key="drone.id" class="bg-white p-5 rounded-lg shadow flex flex-col items-center">
-                            <span class="text-lg font-semibold text-blue-700 mb-1">{{ drone.id }}</span>
-                            <span class="text-sm text-gray-500 mb-1">Status: <span :class="{'text-green-500': drone.status === 'Active', 'text-red-500': drone.status !== 'Active'}">{{ drone.status }}</span></span>
-                            <span class="text-sm text-gray-500 mb-1">Location: <span class="text-gray-700">{{ drone.location }}</span></span>
-                            <span class="text-sm text-gray-500">Battery: <span class="text-green-600 font-bold">{{ drone.battery }}</span></span>
+                        <div v-for="drone in droneFleetInfo" :key="drone.id"
+                            class="bg-white dark:bg-gray-800 p-5 rounded-lg shadow flex flex-col items-center">
+                            <span class="text-lg font-semibold text-blue-700 dark:text-blue-400 mb-1">{{ drone.id
+                                }}</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 mb-1">Status: <span
+                                    :class="{ 'text-green-500 dark:text-green-400': drone.status === 'Active', 'text-red-500 dark:text-red-400': drone.status !== 'Active' }">{{
+                                        drone.status }}</span></span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 mb-1">Location: <span
+                                    class="text-gray-700 dark:text-gray-300">{{
+                                        drone.location }}</span></span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400">Battery: <span
+                                    class="text-green-600 dark:text-green-500 font-bold">{{
+                                        drone.battery }}</span></span>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
-        <section class="py-16">
+        <section class="py-16 ">
             <div class="max-w-7xl mx-auto px-5">
                 <h2 class="text-3xl font-bold text-center mb-4">About Us</h2>
                 <p class="text-center mb-8">Learn more about our team and mission</p>
-                <div class="bg-gray-100 p-6 rounded-lg">
-                    <p class="text-center mb-8">We are a team of innovators passionate about harnessing the power of drone technology to advance weather monitoring and prediction.</p>
+                <div class="bg-gray-100 p-6 rounded-lg dark:bg-gray-700">
+                    <p class="text-center mb-8">We are a team of innovators passionate about harnessing the power of
+                        drone technology to advance weather monitoring and prediction.</p>
                     <NuxtLink to="/about" class="text-blue-500 hover:underline">About</NuxtLink>
                 </div>
             </div>
@@ -174,9 +191,9 @@ const batteryStatusData = ref([95, 90, 85, 80, 75, 70, 65, 60, 55, 50, 45, 40]);
 const powerConsumptionData = ref([1.0, 1.1, 1.2, 1.3, 1.2, 1.1, 1.0, 0.9, 0.8, 0.9, 1.0, 1.1]);
 
 const droneFleetInfo = ref([
-  { id: 'drone-001', status: 'Active', location: 'Area A', battery: '85%' },
-  { id: 'drone-002', status: 'Inactive', location: 'Hangar', battery: '60%' },
-  { id: 'drone-003', status: 'Active', location: 'Area B', battery: '92%' },
+    { id: 'drone-001', status: 'Inactive', location: 'Area A', battery: '85%' },
+    { id: 'drone-002', status: 'Inactive', location: 'Hangar', battery: '60%' },
+    { id: 'drone-003', status: 'Inactive', location: 'Area B', battery: '92%' },
 ]);
 
 // Computed properties for simple visualization (replace with actual charting library later)

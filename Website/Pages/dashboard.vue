@@ -47,7 +47,7 @@
                 class="bg-blue-50 dark:bg-blue-900 rounded-lg shadow p-4 flex flex-col items-center transition-colors duration-300">
                 <span class="text-blue-500 dark:text-blue-300 text-xs mb-1">SMHI Weather</span>
                 <span class="text-xs text-gray-500 dark:text-gray-400">Temp: <span class="font-bold">{{ smhiWeather.temp
-                        }}°C</span></span>
+                }}°C</span></span>
                 <span class="text-xs text-gray-500 dark:text-gray-400">Humidity: <span class="font-bold">{{
                     smhiWeather.humidity }}%</span></span>
                 <span class="text-xs text-gray-500 dark:text-gray-400">Cloud: <span class="font-bold">{{

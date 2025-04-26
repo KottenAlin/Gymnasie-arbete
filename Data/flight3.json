@@ -1,0 +1,1927 @@
+[
+  {
+    "timestamp": "2025-04-26T22:26:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524773,
+      "longitude": -118.2434198
+    },
+    "temperature": 15.07,
+    "humidity": 60.16,
+    "light": {
+      "visible": 521,
+      "ir": 147
+    },
+    "power_consumption": 1.23,
+    "battery_status": 72,
+    "acceleration": {
+      "x": 0.35,
+      "y": 0.06,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.728,
+      "wind_speed": 4.42,
+      "wind_direction": 233.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:27:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524519,
+      "longitude": -118.2434684
+    },
+    "temperature": 14.73,
+    "humidity": 59.87,
+    "light": {
+      "visible": 523,
+      "ir": 146
+    },
+    "power_consumption": 1.231,
+    "battery_status": 71,
+    "acceleration": {
+      "x": 0.34,
+      "y": 0.07,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.724,
+      "wind_speed": 4.26,
+      "wind_direction": 232.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:28:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524579,
+      "longitude": -118.2434433
+    },
+    "temperature": 15.06,
+    "humidity": 59.47,
+    "light": {
+      "visible": 525,
+      "ir": 147
+    },
+    "power_consumption": 1.235,
+    "battery_status": 70,
+    "acceleration": {
+      "x": 0.35,
+      "y": 0.07,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.729,
+      "wind_speed": 3.78,
+      "wind_direction": 235.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:29:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.052428,
+      "longitude": -118.2434901
+    },
+    "temperature": 15.47,
+    "humidity": 59.76,
+    "light": {
+      "visible": 520,
+      "ir": 146
+    },
+    "power_consumption": 1.24,
+    "battery_status": 69,
+    "acceleration": {
+      "x": 0.35,
+      "y": 0.08,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.722,
+      "wind_speed": 4.29,
+      "wind_direction": 231.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:30:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524398,
+      "longitude": -118.2434767
+    },
+    "temperature": 15.16,
+    "humidity": 59.93,
+    "light": {
+      "visible": 516,
+      "ir": 145
+    },
+    "power_consumption": 1.245,
+    "battery_status": 68,
+    "acceleration": {
+      "x": 0.34,
+      "y": 0.08,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.718,
+      "wind_speed": 4.04,
+      "wind_direction": 230.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:31:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524531,
+      "longitude": -118.2435218
+    },
+    "temperature": 15.46,
+    "humidity": 59.7,
+    "light": {
+      "visible": 520,
+      "ir": 147
+    },
+    "power_consumption": 1.251,
+    "battery_status": 67,
+    "acceleration": {
+      "x": 0.34,
+      "y": 0.08,
+      "z": 9.54
+    },
+    "calculated": {
+      "cloudiness": 0.723,
+      "wind_speed": 4.39,
+      "wind_direction": 234.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:32:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524928,
+      "longitude": -118.2435603
+    },
+    "temperature": 14.93,
+    "humidity": 59.74,
+    "light": {
+      "visible": 518,
+      "ir": 148
+    },
+    "power_consumption": 1.254,
+    "battery_status": 66,
+    "acceleration": {
+      "x": 0.34,
+      "y": 0.08,
+      "z": 9.54
+    },
+    "calculated": {
+      "cloudiness": 0.729,
+      "wind_speed": 4.25,
+      "wind_direction": 238.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:33:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524998,
+      "longitude": -118.2435141
+    },
+    "temperature": 15.12,
+    "humidity": 59.64,
+    "light": {
+      "visible": 522,
+      "ir": 149
+    },
+    "power_consumption": 1.257,
+    "battery_status": 66,
+    "acceleration": {
+      "x": 0.34,
+      "y": 0.08,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.73,
+      "wind_speed": 3.79,
+      "wind_direction": 243.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:34:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525365,
+      "longitude": -118.243518
+    },
+    "temperature": 15.01,
+    "humidity": 59.91,
+    "light": {
+      "visible": 520,
+      "ir": 149
+    },
+    "power_consumption": 1.264,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.34,
+      "y": 0.09,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.736,
+      "wind_speed": 4.12,
+      "wind_direction": 246.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:35:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525103,
+      "longitude": -118.2435613
+    },
+    "temperature": 15.02,
+    "humidity": 60.11,
+    "light": {
+      "visible": 517,
+      "ir": 150
+    },
+    "power_consumption": 1.256,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.35,
+      "y": 0.09,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.73,
+      "wind_speed": 4.22,
+      "wind_direction": 243.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:36:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525381,
+      "longitude": -118.2435409
+    },
+    "temperature": 15.21,
+    "humidity": 59.97,
+    "light": {
+      "visible": 519,
+      "ir": 149
+    },
+    "power_consumption": 1.262,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.35,
+      "y": 0.1,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.73,
+      "wind_speed": 3.76,
+      "wind_direction": 245.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:37:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525717,
+      "longitude": -118.2435355
+    },
+    "temperature": 14.79,
+    "humidity": 60.09,
+    "light": {
+      "visible": 520,
+      "ir": 148
+    },
+    "power_consumption": 1.261,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.35,
+      "y": 0.1,
+      "z": 9.54
+    },
+    "calculated": {
+      "cloudiness": 0.731,
+      "wind_speed": 4.05,
+      "wind_direction": 241.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:38:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0526078,
+      "longitude": -118.2435011
+    },
+    "temperature": 15.34,
+    "humidity": 59.75,
+    "light": {
+      "visible": 524,
+      "ir": 150
+    },
+    "power_consumption": 1.252,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.36,
+      "y": 0.11,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.729,
+      "wind_speed": 3.88,
+      "wind_direction": 236.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:39:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0526214,
+      "longitude": -118.2434615
+    },
+    "temperature": 14.8,
+    "humidity": 60.19,
+    "light": {
+      "visible": 526,
+      "ir": 151
+    },
+    "power_consumption": 1.255,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.37,
+      "y": 0.11,
+      "z": 9.52
+    },
+    "calculated": {
+      "cloudiness": 0.736,
+      "wind_speed": 4.44,
+      "wind_direction": 241.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:40:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525915,
+      "longitude": -118.2434223
+    },
+    "temperature": 14.93,
+    "humidity": 60.46,
+    "light": {
+      "visible": 526,
+      "ir": 151
+    },
+    "power_consumption": 1.245,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.36,
+      "y": 0.1,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.73,
+      "wind_speed": 4.31,
+      "wind_direction": 242.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:41:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0526021,
+      "longitude": -118.243373
+    },
+    "temperature": 15.07,
+    "humidity": 60.65,
+    "light": {
+      "visible": 525,
+      "ir": 150
+    },
+    "power_consumption": 1.239,
+    "battery_status": 65,
+    "acceleration": {
+      "x": 0.36,
+      "y": 0.11,
+      "z": 9.54
+    },
+    "calculated": {
+      "cloudiness": 0.737,
+      "wind_speed": 4.0,
+      "wind_direction": 241.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:42:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0526347,
+      "longitude": -118.2433759
+    },
+    "temperature": 15.4,
+    "humidity": 60.64,
+    "light": {
+      "visible": 530,
+      "ir": 151
+    },
+    "power_consumption": 1.233,
+    "battery_status": 64,
+    "acceleration": {
+      "x": 0.36,
+      "y": 0.1,
+      "z": 9.54
+    },
+    "calculated": {
+      "cloudiness": 0.73,
+      "wind_speed": 4.12,
+      "wind_direction": 236.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:43:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0526156,
+      "longitude": -118.2433868
+    },
+    "temperature": 15.41,
+    "humidity": 61.02,
+    "light": {
+      "visible": 528,
+      "ir": 153
+    },
+    "power_consumption": 1.227,
+    "battery_status": 63,
+    "acceleration": {
+      "x": 0.37,
+      "y": 0.1,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.733,
+      "wind_speed": 3.88,
+      "wind_direction": 239.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:44:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525899,
+      "longitude": -118.2433934
+    },
+    "temperature": 15.18,
+    "humidity": 61.46,
+    "light": {
+      "visible": 528,
+      "ir": 151
+    },
+    "power_consumption": 1.234,
+    "battery_status": 62,
+    "acceleration": {
+      "x": 0.37,
+      "y": 0.1,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.731,
+      "wind_speed": 4.38,
+      "wind_direction": 237.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:45:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525587,
+      "longitude": -118.2433591
+    },
+    "temperature": 15.32,
+    "humidity": 61.78,
+    "light": {
+      "visible": 533,
+      "ir": 152
+    },
+    "power_consumption": 1.231,
+    "battery_status": 62,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.1,
+      "z": 9.56
+    },
+    "calculated": {
+      "cloudiness": 0.722,
+      "wind_speed": 3.73,
+      "wind_direction": 235.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:46:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525549,
+      "longitude": -118.2434031
+    },
+    "temperature": 15.27,
+    "humidity": 61.32,
+    "light": {
+      "visible": 536,
+      "ir": 151
+    },
+    "power_consumption": 1.223,
+    "battery_status": 62,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.1,
+      "z": 9.56
+    },
+    "calculated": {
+      "cloudiness": 0.717,
+      "wind_speed": 4.5,
+      "wind_direction": 239.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:47:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525668,
+      "longitude": -118.2433552
+    },
+    "temperature": 15.4,
+    "humidity": 60.85,
+    "light": {
+      "visible": 538,
+      "ir": 152
+    },
+    "power_consumption": 1.222,
+    "battery_status": 62,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.1,
+      "z": 9.56
+    },
+    "calculated": {
+      "cloudiness": 0.707,
+      "wind_speed": 3.85,
+      "wind_direction": 237.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:48:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0526005,
+      "longitude": -118.24332
+    },
+    "temperature": 15.08,
+    "humidity": 60.94,
+    "light": {
+      "visible": 538,
+      "ir": 154
+    },
+    "power_consumption": 1.23,
+    "battery_status": 62,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.1,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.71,
+      "wind_speed": 3.57,
+      "wind_direction": 234.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:49:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525532,
+      "longitude": -118.2433259
+    },
+    "temperature": 14.5,
+    "humidity": 60.87,
+    "light": {
+      "visible": 534,
+      "ir": 152
+    },
+    "power_consumption": 1.228,
+    "battery_status": 62,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.09,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.712,
+      "wind_speed": 3.72,
+      "wind_direction": 232.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:50:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525376,
+      "longitude": -118.2433537
+    },
+    "temperature": 14.92,
+    "humidity": 61.27,
+    "light": {
+      "visible": 535,
+      "ir": 154
+    },
+    "power_consumption": 1.232,
+    "battery_status": 61,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.55
+    },
+    "calculated": {
+      "cloudiness": 0.703,
+      "wind_speed": 3.82,
+      "wind_direction": 229.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:51:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525086,
+      "longitude": -118.2433865
+    },
+    "temperature": 15.16,
+    "humidity": 61.25,
+    "light": {
+      "visible": 537,
+      "ir": 152
+    },
+    "power_consumption": 1.238,
+    "battery_status": 60,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.54
+    },
+    "calculated": {
+      "cloudiness": 0.71,
+      "wind_speed": 3.63,
+      "wind_direction": 228.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:52:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524843,
+      "longitude": -118.2433657
+    },
+    "temperature": 14.58,
+    "humidity": 61.38,
+    "light": {
+      "visible": 535,
+      "ir": 153
+    },
+    "power_consumption": 1.238,
+    "battery_status": 59,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.08,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.708,
+      "wind_speed": 4.28,
+      "wind_direction": 230.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:53:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524415,
+      "longitude": -118.2433939
+    },
+    "temperature": 14.79,
+    "humidity": 60.92,
+    "light": {
+      "visible": 536,
+      "ir": 155
+    },
+    "power_consumption": 1.232,
+    "battery_status": 59,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.09,
+      "z": 9.53
+    },
+    "calculated": {
+      "cloudiness": 0.717,
+      "wind_speed": 4.22,
+      "wind_direction": 227.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:54:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524383,
+      "longitude": -118.2434219
+    },
+    "temperature": 15.08,
+    "humidity": 60.97,
+    "light": {
+      "visible": 539,
+      "ir": 157
+    },
+    "power_consumption": 1.226,
+    "battery_status": 58,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.09,
+      "z": 9.52
+    },
+    "calculated": {
+      "cloudiness": 0.708,
+      "wind_speed": 3.82,
+      "wind_direction": 226.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:55:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524878,
+      "longitude": -118.2434139
+    },
+    "temperature": 15.39,
+    "humidity": 60.64,
+    "light": {
+      "visible": 542,
+      "ir": 157
+    },
+    "power_consumption": 1.225,
+    "battery_status": 57,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.09,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.703,
+      "wind_speed": 4.34,
+      "wind_direction": 225.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:56:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0525056,
+      "longitude": -118.2434618
+    },
+    "temperature": 14.95,
+    "humidity": 60.86,
+    "light": {
+      "visible": 540,
+      "ir": 155
+    },
+    "power_consumption": 1.223,
+    "battery_status": 56,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.09,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.7,
+      "wind_speed": 4.25,
+      "wind_direction": 229.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:57:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524861,
+      "longitude": -118.243421
+    },
+    "temperature": 15.09,
+    "humidity": 60.71,
+    "light": {
+      "visible": 537,
+      "ir": 155
+    },
+    "power_consumption": 1.227,
+    "battery_status": 56,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.1,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.702,
+      "wind_speed": 3.99,
+      "wind_direction": 233.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:58:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524593,
+      "longitude": -118.2434331
+    },
+    "temperature": 15.45,
+    "humidity": 60.36,
+    "light": {
+      "visible": 539,
+      "ir": 154
+    },
+    "power_consumption": 1.23,
+    "battery_status": 55,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.1,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.708,
+      "wind_speed": 4.43,
+      "wind_direction": 236.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T22:59:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.052434,
+      "longitude": -118.2434255
+    },
+    "temperature": 15.17,
+    "humidity": 60.78,
+    "light": {
+      "visible": 540,
+      "ir": 154
+    },
+    "power_consumption": 1.238,
+    "battery_status": 54,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.09,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.698,
+      "wind_speed": 3.92,
+      "wind_direction": 237.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:00:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523873,
+      "longitude": -118.2433913
+    },
+    "temperature": 14.66,
+    "humidity": 60.48,
+    "light": {
+      "visible": 535,
+      "ir": 155
+    },
+    "power_consumption": 1.236,
+    "battery_status": 53,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.52
+    },
+    "calculated": {
+      "cloudiness": 0.703,
+      "wind_speed": 3.96,
+      "wind_direction": 241.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:01:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523424,
+      "longitude": -118.2434372
+    },
+    "temperature": 14.7,
+    "humidity": 60.39,
+    "light": {
+      "visible": 537,
+      "ir": 154
+    },
+    "power_consumption": 1.245,
+    "battery_status": 52,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.08,
+      "z": 9.52
+    },
+    "calculated": {
+      "cloudiness": 0.697,
+      "wind_speed": 3.76,
+      "wind_direction": 246.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:02:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523415,
+      "longitude": -118.2434173
+    },
+    "temperature": 14.89,
+    "humidity": 60.02,
+    "light": {
+      "visible": 534,
+      "ir": 153
+    },
+    "power_consumption": 1.246,
+    "battery_status": 51,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.09,
+      "z": 9.52
+    },
+    "calculated": {
+      "cloudiness": 0.7,
+      "wind_speed": 3.7,
+      "wind_direction": 248.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:03:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523286,
+      "longitude": -118.2433836
+    },
+    "temperature": 14.65,
+    "humidity": 59.66,
+    "light": {
+      "visible": 535,
+      "ir": 152
+    },
+    "power_consumption": 1.246,
+    "battery_status": 51,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.701,
+      "wind_speed": 3.88,
+      "wind_direction": 253.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:04:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523543,
+      "longitude": -118.2433897
+    },
+    "temperature": 14.55,
+    "humidity": 59.57,
+    "light": {
+      "visible": 533,
+      "ir": 153
+    },
+    "power_consumption": 1.247,
+    "battery_status": 51,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.705,
+      "wind_speed": 3.89,
+      "wind_direction": 250.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:05:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523898,
+      "longitude": -118.243398
+    },
+    "temperature": 15.47,
+    "humidity": 59.57,
+    "light": {
+      "visible": 538,
+      "ir": 155
+    },
+    "power_consumption": 1.244,
+    "battery_status": 51,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.09,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.711,
+      "wind_speed": 4.28,
+      "wind_direction": 253.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:06:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0524139,
+      "longitude": -118.2433683
+    },
+    "temperature": 14.61,
+    "humidity": 59.38,
+    "light": {
+      "visible": 535,
+      "ir": 156
+    },
+    "power_consumption": 1.236,
+    "battery_status": 50,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.09,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.703,
+      "wind_speed": 3.96,
+      "wind_direction": 258.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:07:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523667,
+      "longitude": -118.243384
+    },
+    "temperature": 15.05,
+    "humidity": 59.37,
+    "light": {
+      "visible": 532,
+      "ir": 154
+    },
+    "power_consumption": 1.229,
+    "battery_status": 49,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.09,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.706,
+      "wind_speed": 3.95,
+      "wind_direction": 256.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:08:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523931,
+      "longitude": -118.243351
+    },
+    "temperature": 14.99,
+    "humidity": 59.76,
+    "light": {
+      "visible": 537,
+      "ir": 153
+    },
+    "power_consumption": 1.224,
+    "battery_status": 48,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.705,
+      "wind_speed": 4.25,
+      "wind_direction": 251.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:09:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523866,
+      "longitude": -118.2433185
+    },
+    "temperature": 15.03,
+    "humidity": 60.11,
+    "light": {
+      "visible": 539,
+      "ir": 153
+    },
+    "power_consumption": 1.229,
+    "battery_status": 48,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.08,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.696,
+      "wind_speed": 4.17,
+      "wind_direction": 254.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:10:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523629,
+      "longitude": -118.2433492
+    },
+    "temperature": 14.7,
+    "humidity": 60.07,
+    "light": {
+      "visible": 537,
+      "ir": 153
+    },
+    "power_consumption": 1.224,
+    "battery_status": 48,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.07,
+      "z": 9.49
+    },
+    "calculated": {
+      "cloudiness": 0.69,
+      "wind_speed": 3.86,
+      "wind_direction": 256.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:11:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0523132,
+      "longitude": -118.2433991
+    },
+    "temperature": 15.32,
+    "humidity": 59.97,
+    "light": {
+      "visible": 538,
+      "ir": 153
+    },
+    "power_consumption": 1.223,
+    "battery_status": 47,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.06,
+      "z": 9.49
+    },
+    "calculated": {
+      "cloudiness": 0.696,
+      "wind_speed": 4.35,
+      "wind_direction": 256.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:12:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522963,
+      "longitude": -118.2434035
+    },
+    "temperature": 14.72,
+    "humidity": 59.52,
+    "light": {
+      "visible": 537,
+      "ir": 151
+    },
+    "power_consumption": 1.215,
+    "battery_status": 47,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.07,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.69,
+      "wind_speed": 3.72,
+      "wind_direction": 258.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:13:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522596,
+      "longitude": -118.2433841
+    },
+    "temperature": 15.17,
+    "humidity": 59.1,
+    "light": {
+      "visible": 539,
+      "ir": 152
+    },
+    "power_consumption": 1.216,
+    "battery_status": 46,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.06,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.683,
+      "wind_speed": 3.9,
+      "wind_direction": 261.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:14:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522383,
+      "longitude": -118.2433895
+    },
+    "temperature": 15.41,
+    "humidity": 59.14,
+    "light": {
+      "visible": 539,
+      "ir": 154
+    },
+    "power_consumption": 1.215,
+    "battery_status": 45,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.06,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.684,
+      "wind_speed": 4.29,
+      "wind_direction": 260.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:15:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522143,
+      "longitude": -118.2433583
+    },
+    "temperature": 14.58,
+    "humidity": 59.41,
+    "light": {
+      "visible": 541,
+      "ir": 156
+    },
+    "power_consumption": 1.219,
+    "battery_status": 44,
+    "acceleration": {
+      "x": 0.38,
+      "y": 0.05,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.684,
+      "wind_speed": 3.94,
+      "wind_direction": 263.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:16:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522459,
+      "longitude": -118.243327
+    },
+    "temperature": 14.83,
+    "humidity": 59.33,
+    "light": {
+      "visible": 545,
+      "ir": 158
+    },
+    "power_consumption": 1.213,
+    "battery_status": 44,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.04,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.685,
+      "wind_speed": 4.44,
+      "wind_direction": 260.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:17:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522512,
+      "longitude": -118.2432845
+    },
+    "temperature": 14.98,
+    "humidity": 59.0,
+    "light": {
+      "visible": 549,
+      "ir": 160
+    },
+    "power_consumption": 1.214,
+    "battery_status": 43,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.03,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.687,
+      "wind_speed": 4.39,
+      "wind_direction": 255.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:18:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0522024,
+      "longitude": -118.2432861
+    },
+    "temperature": 15.24,
+    "humidity": 59.06,
+    "light": {
+      "visible": 547,
+      "ir": 159
+    },
+    "power_consumption": 1.212,
+    "battery_status": 42,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.04,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.684,
+      "wind_speed": 3.76,
+      "wind_direction": 254.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:19:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521913,
+      "longitude": -118.2433255
+    },
+    "temperature": 14.71,
+    "humidity": 59.22,
+    "light": {
+      "visible": 544,
+      "ir": 157
+    },
+    "power_consumption": 1.215,
+    "battery_status": 41,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.03,
+      "z": 9.51
+    },
+    "calculated": {
+      "cloudiness": 0.681,
+      "wind_speed": 3.87,
+      "wind_direction": 257.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:20:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521648,
+      "longitude": -118.2433431
+    },
+    "temperature": 14.93,
+    "humidity": 58.96,
+    "light": {
+      "visible": 545,
+      "ir": 158
+    },
+    "power_consumption": 1.212,
+    "battery_status": 41,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.04,
+      "z": 9.5
+    },
+    "calculated": {
+      "cloudiness": 0.682,
+      "wind_speed": 4.38,
+      "wind_direction": 260.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:21:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521886,
+      "longitude": -118.2433089
+    },
+    "temperature": 15.08,
+    "humidity": 59.04,
+    "light": {
+      "visible": 548,
+      "ir": 160
+    },
+    "power_consumption": 1.211,
+    "battery_status": 41,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.03,
+      "z": 9.49
+    },
+    "calculated": {
+      "cloudiness": 0.673,
+      "wind_speed": 3.82,
+      "wind_direction": 256.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:22:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521422,
+      "longitude": -118.2432878
+    },
+    "temperature": 15.03,
+    "humidity": 59.05,
+    "light": {
+      "visible": 548,
+      "ir": 158
+    },
+    "power_consumption": 1.208,
+    "battery_status": 40,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.03,
+      "z": 9.49
+    },
+    "calculated": {
+      "cloudiness": 0.67,
+      "wind_speed": 3.8,
+      "wind_direction": 259.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:23:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521358,
+      "longitude": -118.2433156
+    },
+    "temperature": 15.47,
+    "humidity": 58.76,
+    "light": {
+      "visible": 550,
+      "ir": 158
+    },
+    "power_consumption": 1.21,
+    "battery_status": 39,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.03,
+      "z": 9.48
+    },
+    "calculated": {
+      "cloudiness": 0.667,
+      "wind_speed": 4.32,
+      "wind_direction": 261.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:24:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521018,
+      "longitude": -118.2433286
+    },
+    "temperature": 14.77,
+    "humidity": 58.49,
+    "light": {
+      "visible": 546,
+      "ir": 157
+    },
+    "power_consumption": 1.213,
+    "battery_status": 39,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.02,
+      "z": 9.48
+    },
+    "calculated": {
+      "cloudiness": 0.67,
+      "wind_speed": 4.11,
+      "wind_direction": 257.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:25:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520938,
+      "longitude": -118.2433727
+    },
+    "temperature": 15.2,
+    "humidity": 58.0,
+    "light": {
+      "visible": 547,
+      "ir": 157
+    },
+    "power_consumption": 1.211,
+    "battery_status": 38,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.02,
+      "z": 9.48
+    },
+    "calculated": {
+      "cloudiness": 0.677,
+      "wind_speed": 3.96,
+      "wind_direction": 262.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:26:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520693,
+      "longitude": -118.2433537
+    },
+    "temperature": 15.07,
+    "humidity": 58.41,
+    "light": {
+      "visible": 549,
+      "ir": 157
+    },
+    "power_consumption": 1.207,
+    "battery_status": 37,
+    "acceleration": {
+      "x": 0.39,
+      "y": 0.02,
+      "z": 9.48
+    },
+    "calculated": {
+      "cloudiness": 0.671,
+      "wind_speed": 3.6,
+      "wind_direction": 265.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:27:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520264,
+      "longitude": -118.2433735
+    },
+    "temperature": 15.49,
+    "humidity": 58.34,
+    "light": {
+      "visible": 552,
+      "ir": 159
+    },
+    "power_consumption": 1.21,
+    "battery_status": 36,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.01,
+      "z": 9.47
+    },
+    "calculated": {
+      "cloudiness": 0.661,
+      "wind_speed": 4.27,
+      "wind_direction": 268.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:28:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520572,
+      "longitude": -118.2433454
+    },
+    "temperature": 14.66,
+    "humidity": 58.11,
+    "light": {
+      "visible": 553,
+      "ir": 161
+    },
+    "power_consumption": 1.212,
+    "battery_status": 35,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.01,
+      "z": 9.47
+    },
+    "calculated": {
+      "cloudiness": 0.665,
+      "wind_speed": 3.94,
+      "wind_direction": 267.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:29:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520287,
+      "longitude": -118.2433189
+    },
+    "temperature": 15.07,
+    "humidity": 58.33,
+    "light": {
+      "visible": 553,
+      "ir": 163
+    },
+    "power_consumption": 1.208,
+    "battery_status": 34,
+    "acceleration": {
+      "x": 0.4,
+      "y": 0.0,
+      "z": 9.47
+    },
+    "calculated": {
+      "cloudiness": 0.666,
+      "wind_speed": 3.66,
+      "wind_direction": 265.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:30:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520484,
+      "longitude": -118.2432867
+    },
+    "temperature": 15.35,
+    "humidity": 58.07,
+    "light": {
+      "visible": 557,
+      "ir": 163
+    },
+    "power_consumption": 1.204,
+    "battery_status": 34,
+    "acceleration": {
+      "x": 0.4,
+      "y": -0.01,
+      "z": 9.47
+    },
+    "calculated": {
+      "cloudiness": 0.667,
+      "wind_speed": 4.28,
+      "wind_direction": 262.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:31:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520184,
+      "longitude": -118.2433056
+    },
+    "temperature": 14.66,
+    "humidity": 58.02,
+    "light": {
+      "visible": 553,
+      "ir": 164
+    },
+    "power_consumption": 1.203,
+    "battery_status": 33,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.01,
+      "z": 9.47
+    },
+    "calculated": {
+      "cloudiness": 0.659,
+      "wind_speed": 4.43,
+      "wind_direction": 265.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:32:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520379,
+      "longitude": -118.2432772
+    },
+    "temperature": 14.92,
+    "humidity": 58.44,
+    "light": {
+      "visible": 552,
+      "ir": 162
+    },
+    "power_consumption": 1.207,
+    "battery_status": 32,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.02,
+      "z": 9.46
+    },
+    "calculated": {
+      "cloudiness": 0.658,
+      "wind_speed": 4.28,
+      "wind_direction": 267.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:33:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520793,
+      "longitude": -118.2432844
+    },
+    "temperature": 15.11,
+    "humidity": 58.87,
+    "light": {
+      "visible": 554,
+      "ir": 160
+    },
+    "power_consumption": 1.21,
+    "battery_status": 31,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.02,
+      "z": 9.46
+    },
+    "calculated": {
+      "cloudiness": 0.664,
+      "wind_speed": 3.79,
+      "wind_direction": 268.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:34:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520896,
+      "longitude": -118.2433265
+    },
+    "temperature": 15.32,
+    "humidity": 59.29,
+    "light": {
+      "visible": 557,
+      "ir": 162
+    },
+    "power_consumption": 1.214,
+    "battery_status": 30,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.03,
+      "z": 9.46
+    },
+    "calculated": {
+      "cloudiness": 0.665,
+      "wind_speed": 3.65,
+      "wind_direction": 265.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:35:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.052072,
+      "longitude": -118.2433634
+    },
+    "temperature": 14.77,
+    "humidity": 59.63,
+    "light": {
+      "visible": 554,
+      "ir": 161
+    },
+    "power_consumption": 1.212,
+    "battery_status": 30,
+    "acceleration": {
+      "x": 0.38,
+      "y": -0.03,
+      "z": 9.46
+    },
+    "calculated": {
+      "cloudiness": 0.665,
+      "wind_speed": 3.98,
+      "wind_direction": 268.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:36:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.052024,
+      "longitude": -118.2433948
+    },
+    "temperature": 15.16,
+    "humidity": 59.37,
+    "light": {
+      "visible": 553,
+      "ir": 161
+    },
+    "power_consumption": 1.21,
+    "battery_status": 29,
+    "acceleration": {
+      "x": 0.38,
+      "y": -0.04,
+      "z": 9.46
+    },
+    "calculated": {
+      "cloudiness": 0.666,
+      "wind_speed": 4.1,
+      "wind_direction": 271.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:37:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520479,
+      "longitude": -118.2433666
+    },
+    "temperature": 14.87,
+    "humidity": 59.11,
+    "light": {
+      "visible": 555,
+      "ir": 160
+    },
+    "power_consumption": 1.207,
+    "battery_status": 28,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.04,
+      "z": 9.45
+    },
+    "calculated": {
+      "cloudiness": 0.657,
+      "wind_speed": 4.01,
+      "wind_direction": 272.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:38:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0520773,
+      "longitude": -118.2433858
+    },
+    "temperature": 15.48,
+    "humidity": 58.62,
+    "light": {
+      "visible": 558,
+      "ir": 161
+    },
+    "power_consumption": 1.203,
+    "battery_status": 28,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.05,
+      "z": 9.45
+    },
+    "calculated": {
+      "cloudiness": 0.658,
+      "wind_speed": 4.29,
+      "wind_direction": 270.0
+    }
+  },
+  {
+    "timestamp": "2025-04-26T23:39:00+02:00",
+    "drone_id": "weatherdrone-001",
+    "position": {
+      "latitude": 34.0521082,
+      "longitude": -118.2433543
+    },
+    "temperature": 14.89,
+    "humidity": 58.84,
+    "light": {
+      "visible": 561,
+      "ir": 162
+    },
+    "power_consumption": 1.204,
+    "battery_status": 27,
+    "acceleration": {
+      "x": 0.39,
+      "y": -0.05,
+      "z": 9.45
+    },
+    "calculated": {
+      "cloudiness": 0.657,
+      "wind_speed": 4.27,
+      "wind_direction": 267.0
+    }
+  }
+]
+
