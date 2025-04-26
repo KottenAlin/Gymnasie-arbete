@@ -1,5 +1,14 @@
 # Gymnasieprojekt väderdrönare
 
+**This is a weather drone (väderdrönare) project for the Gymnasiearbete at Hitachi Gymnasiet.**
+
+The goal is to build and program a drone platform that collects weather and telemetry data using onboard sensors and MAVLink telemetry from the flight controller. The system transmits data via LoRa and WiFi, logs it to Firebase, and visualizes it on a Nuxt3 web dashboard. Features include:
+- Real-time collection of temperature, humidity, light, and IR data
+- Integration with drone telemetry (acceleration, propeller speed, battery, altitude, etc) via MAVLink
+- Wireless transmission using LoRa and WiFi
+- Cloud data storage (Firebase)
+- Interactive dashboard for data visualization
+
 [Website](https://weatherdrones.netlify.app/dashboard)
 
 
@@ -118,3 +127,63 @@ Install via Arduino Library Manager.
 
 ---
 For integration with your Nuxt3 web dashboard, use the `/drone_data` path in Firebase Firestore/Realtime Database as your data source.
+
+---
+
+# Drone Telemetry via MAVLink
+
+This system can receive and log drone telemetry data using the MAVLink protocol, commonly used by ArduPilot, PX4, and other flight controllers.
+
+## Supported Telemetry Fields
+- **Acceleration:** x, y, z axes
+- **Gyroscope (Rotation):** x, y, z axes
+- **Pressure** (absolute)
+- **Altitude** (pressure-based)
+- **Propeller (ESC) speeds:** 4 propellers (RPM)
+- **Energy consumption:** Current and total energy
+- **Battery percentage**
+- **Signal strength:** RSSI, remote RSSI, noise
+
+## Data Structure
+Telemetry is parsed from MAVLink messages and uploaded to Firebase under `/drone_telemetry/` with a timestamp. Example fields:
+
+```json
+{
+  "timestamp": "2025-04-26T20:00:00Z",
+  "accel_x": 0.12,
+  "accel_y": -0.03,
+  "accel_z": 9.81,
+  "gyro_x": 0.01,
+  "gyro_y": 0.00,
+  "gyro_z": -0.02,
+  "pressure": 1013.25,
+  "altitude": 120.5,
+  "rpm1": 8000,
+  "rpm2": 8050,
+  "rpm3": 7990,
+  "rpm4": 8005,
+  "battery_remaining": 85,
+  "current_consumed": 1200,
+  "energy_consumed": 5000,
+  "voltage": 11.1,
+  "rssi": 200,
+  "remrssi": 190,
+  "noise": 35
+}
+```
+
+## Wiring
+- Connect the flight controller's telemetry TX (MAVLink output) to NodeMCU RX (usually D7 or D9, check your board)
+- Connect GND to GND
+- (Optional) Use a logic level shifter if MAVLink TX is 5V and NodeMCU is 3.3V
+
+## Software Setup
+- Place the [MAVLink C library](https://github.com/mavlink/c_library_v2) in `libraries/mavlink/` in your Arduino sketch folder
+- The receiver code parses messages over `Serial` and uploads supported fields to Firebase
+
+## Usage
+- Power the flight controller and NodeMCU
+- Telemetry will be parsed and uploaded automatically
+- Data appears in Firebase under `/drone_telemetry/`
+
+---
