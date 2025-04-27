@@ -131,6 +131,94 @@ For integration with your Nuxt3 web dashboard, use the `/drone_data` path in Fir
 
 ---
 
+# Cloud Functions: Wind & Cloudiness Estimation
+
+This project includes two Python Cloud Functions for advanced drone data analysis:
+
+- **Wind Estimation** (`estimate_wind`)
+- **Cloudiness Estimation** (`estimate_cloudiness`)
+
+## Deploying the Cloud Functions
+
+1. Ensure you have the [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) installed and authenticated (`gcloud init`).
+2. Navigate to the `cloudfunctions` directory:
+   ```sh
+   cd cloudfunctions
+   ```
+3. Deploy the functions (replace `europe-west1` with your preferred region):
+   ```sh
+   gcloud functions deploy estimate_wind \
+     --runtime python310 \
+     --trigger-http \
+     --allow-unauthenticated \
+     --entry-point estimate_wind \
+     --region europe-west1
+
+   gcloud functions deploy estimate_cloudiness \
+     --runtime python310 \
+     --trigger-http \
+     --allow-unauthenticated \
+     --entry-point estimate_cloudiness \
+     --region europe-west1
+   ```
+4. After deployment, note the function URLs provided by Google Cloud.
+
+## Using the Cloud Functions
+
+### Wind Estimation
+- **Request:**
+  - POST JSON to the function URL:
+    ```json
+    {
+      "flight_doc_id": "<your-flight-document-id>"
+    }
+    ```
+  - Optionally, include `"calibration_doc_id": "<your-calibration-doc-id>"` if calibration is stored separately.
+- **Firestore:**
+  - The function reads from the `flights` collection (and `calibrations` if needed).
+- **Response:**
+  - JSON with wind speed, direction, and diagnostics.
+
+### Cloudiness Estimation
+- **Request:**
+  - POST JSON with either direct values or a Firestore document ID:
+    ```json
+    { "light_intensity": 123, "ir_intensity": 456 }
+    ```
+    or
+    ```json
+    { "cloud_doc_id": "<your-cloudiness-document-id>" }
+    ```
+  - The function reads from the `cloudiness` collection if using a document ID.
+- **Response:**
+  - JSON with `cloudiness` (0 = clear, 1 = fully cloudy) and raw sensor values.
+
+## Integrating with Nuxt3
+
+You can call these functions from your Nuxt3 dashboard using `fetch` or `axios`:
+
+```js
+const response = await fetch('https://REGION-PROJECT_ID.cloudfunctions.net/estimate_wind', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ flight_doc_id: 'YOUR_FLIGHT_DOC_ID' })
+});
+const data = await response.json();
+```
+
+Replace the URL and payload as needed for `estimate_cloudiness`.
+
+## Permissions
+- By default, functions are deployed as public (`--allow-unauthenticated`).
+- For production, restrict access using IAM or Firebase Authentication.
+
+## Troubleshooting
+- Ensure your Firestore collections (`flights`, `calibrations`, `cloudiness`) are correctly structured.
+- Check function logs in Google Cloud Console for errors.
+- Make sure your service account has Firestore access.
+
+---
+
 # Drone Telemetry via MAVLink
 
 This system can receive and log drone telemetry data using the MAVLink protocol, commonly used by ArduPilot, PX4, and other flight controllers.
