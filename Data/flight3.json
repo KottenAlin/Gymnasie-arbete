@@ -15,7 +15,7 @@
     "power_consumption": 1.23,
     "battery_status": 72,
     "acceleration": {
-      "x": 0.35,
+      "x": 0.35,    
       "y": 0.06,
       "z": 9.55
     },
