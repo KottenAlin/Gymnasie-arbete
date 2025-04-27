@@ -1,6 +1,11 @@
 # Gymnasieprojekt väderdrönare
 
+
+
 **This is a weather drone (väderdrönare) project for the Gymnasiearbete at Hitachi Gymnasiet.**
+
+![Weather Drone](assets/logo%20(2).png)
+
 
 The goal is to build and program a drone platform that collects weather and telemetry data using onboard sensors and MAVLink telemetry from the flight controller. The system transmits data via LoRa and WiFi, logs it to Firebase, and visualizes it on a Nuxt3 web dashboard. Features include:
 - Real-time collection of temperature, humidity, light, and IR data
